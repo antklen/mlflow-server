@@ -5,6 +5,11 @@ Inspired by [this](https://github.com/bubulmet/mlflow-postgres-minio) repo.
 ## Deploy
 
 - go to server where you want to deploy mlflow
+- clone repository and move into it:
+```sh
+git clone git@github.com:antklen/mlflow-server.git
+cd mlflow-server
+```
 - build docker image (only for the first time): `sh build_mlflow.sh`
 - define environment variables with ports (could be any free ports, values here are just for example):
 ```sh
